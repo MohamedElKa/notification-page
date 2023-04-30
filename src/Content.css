@@ -1,0 +1,63 @@
+.content .con{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: hsl(205, 33%, 90%);
+    padding: 5px 25px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.content .con img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.content .con p{
+    position: relative;
+}
+
+.content .con .point{
+    /* height: 0; */
+    /* padding: 15px 7px; */
+    /* width: 51px;
+    height: 5px; */
+    top: 8.7px;
+    /* right: -5px; */
+    margin-left: 7px;
+    /* transform: translateY(-50%); */
+    padding: 5px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: hsl(1, 90%, 64%);
+}
+.content .kimberly .point{
+    top: 30px;
+}
+
+.content .nathan .point{
+    top: 30px;
+}
+
+.content .con .name{
+    font-weight: 800;
+}
+
+.content .con .group{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+.content .rizky .msg{
+    border: 1px solid hsl(219, 12%, 42%);
+    padding: 5px;
+    border-radius: 5px;
+    /* background-color: black; */
+}
